@@ -3,7 +3,8 @@
   cursor: pointer;
   font-size: 2rem;
   position: absolute;
-  top: 50%;
+  top: 20%;
+  padding: px;
 }
 
 .slide-arrow.right {
