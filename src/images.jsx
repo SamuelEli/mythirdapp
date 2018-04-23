@@ -3,10 +3,8 @@ import appbuilding from './appbuilding.jpg'
 import pic12 from './pic12.jpg'
 import toptop from './toptop.jpg'
 
-export const caption = ['What is Lorem Ipsum?','Why do we use it?','Where does it come from?'
-]
-export const imgUrls = [appbuilding,pic12,toptop
-]
+export const caption = ['What is Lorem Ipsum?','Why do we use it?','Where does it come from?']
+export const imgUrls = [appbuilding,pic12,toptop]
 
 export class Carousel extends React.Component {
   constructor (props) {
@@ -67,6 +65,10 @@ render () {
    <div className="row">
      <div className = "col-md-4 hold card">
        <img className = "resize" src="https://pixel.nymag.com/imgs/daily/vulture/2017/12/15/16-eminem-feature.w400.h300.1x.jpg"/>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
        <p><button className="btn btn-primary">like</button></p>
        <p>
          <button className="btn btn-danger"> comment</button>
@@ -75,48 +77,77 @@ render () {
 
      <div className = "col-md-4 hold card">
        <img className = "resize" src="https://pixel.nymag.com/imgs/daily/vulture/2017/12/15/16-eminem-feature.w400.h300.1x.jpg"/>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
        <p><button className="btn btn-primary">like</button></p>
        <p><button className="btn btn-danger"> comment</button></p>
      </div>
 
      <div className = "col-md-4 hold card">
        <img className = "resize" src="https://pixel.nymag.com/imgs/daily/vulture/2017/12/15/16-eminem-feature.w400.h300.1x.jpg"/>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
        <p><button className="btn btn-primary">like</button></p>
        <p><button className="btn btn-danger"> comment</button></p>
      </div>
 
      <div className = "col-md-4 hold card">
        <img className = "resize" src="https://pixel.nymag.com/imgs/daily/vulture/2017/12/15/16-eminem-feature.w400.h300.1x.jpg"/>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
        <p><button className="btn btn-primary">like</button></p>
        <p><button className="btn btn-danger"> comment</button></p>
      </div>
 
      <div className = "col-md-4 hold card">
        <img className = "resize" src="https://pixel.nymag.com/imgs/daily/vulture/2017/12/15/16-eminem-feature.w400.h300.1x.jpg"/>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
        <p><button className="btn btn-primary">like</button></p>
        <p><button className="btn btn-danger"> comment</button></p>
      </div>
 
      <div className = "col-md-4 hold card">
        <img className = "resize" src="https://pixel.nymag.com/imgs/daily/vulture/2017/12/15/16-eminem-feature.w400.h300.1x.jpg"/>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
        <p><button className="btn btn-primary">like</button></p>
        <p><button className="btn btn-danger"> comment</button></p>
      </div>
 
      <div className = "col-md-4 hold card">
        <img className = "resize" src="https://pixel.nymag.com/imgs/daily/vulture/2017/12/15/16-eminem-feature.w400.h300.1x.jpg"/>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
        <p><button className="btn btn-primary">like</button></p>
        <p><button className="btn btn-danger"> comment</button></p>
      </div>
 
      <div className = "col-md-4 hold card">
        <img className = "resize" src="https://pixel.nymag.com/imgs/daily/vulture/2017/12/15/16-eminem-feature.w400.h300.1x.jpg"/>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
        <p><button  className="btn btn-primary">like</button></p>
        <p><button className="btn btn-danger"> comment</button></p>
      </div>
 
      <div className = "col-md-4 hold card">
        <img className = "resize" src="https://pixel.nymag.com/imgs/daily/vulture/2017/12/15/16-eminem-feature.w400.h300.1x.jpg"/>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
        <p><button  className="btn btn-primary">like</button></p>
        <p><button className="btn btn-danger"> comment</button></p>
      </div>
